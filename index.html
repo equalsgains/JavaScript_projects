@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+
+
+<!-- functions -->
+
+
+    <script type="text/javascript">
+      function isItEven(num) {
+        if(num % 2 === 0){
+          return true
+        }
+        else {
+          return false
+        }
+      }
+
+      function factorial(num) {
+            //define a result variable
+            var result = 1;
+            //calculate factorial and store value in result
+            for(var i = 2; i <= num; i++){
+              result *= i;
+            }
+            //return the result variable
+            return result
+        }
+
+        function kebabToSnake(str) {
+          //replace all "-" with "_"
+          var newString = str.replace(/-/g , "_");
+          //return str
+          return newString;
+        }
+
+
+    </script>
+
+  </body>
+</html>
